@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:math_expressions/math_expressions.dart';
 import 'colors.dart';
 
-void main() {
-  runApp(const MaterialApp( home: CalculatorApp()));
-}
+void main() => runApp(const MaterialApp( home: CalculatorApp()));
 
 class CalculatorApp extends StatefulWidget {
   const CalculatorApp({super.key});
